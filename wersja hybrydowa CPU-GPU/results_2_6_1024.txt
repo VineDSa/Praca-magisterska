@@ -1,0 +1,102 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+
+ Process - 1 zmatrix GPU execution time = 0.04037 s
+
+ Process - 0 zmatrix GPU execution time = 0.04133 s
+
+ Process - 1 zmatrix GPU execution time including data transfer = 0.04676 s
+
+ Process - 1 zmatrix GPU data transfer time = 0.006389 s
+
+ Process - 0 zmatrix GPU execution time including data transfer = 0.04766 s
+
+ Process - 0 zmatrix GPU data transfer time = 0.006329 s
+
+ Process - 0 LAPACKEzgetrs took 0.06968s
+
+ Process - 1 Freq = 200	507.8	-697.9
+
+ Process - 0 LAPACKEzgetrs took 0.06991s
+
+ Process - 0 Freq = 100	705	-610.5
+
+ Process - 1 zmatrix GPU execution time = 0.03651 s
+
+ Process - 0 zmatrix GPU execution time = 0.03659 s
+
+ Process - 1 zmatrix GPU execution time including data transfer = 0.03972 s
+
+ Process - 1 zmatrix GPU data transfer time = 0.003211 s
+
+ Process - 0 zmatrix GPU execution time including data transfer = 0.03952 s
+
+ Process - 0 zmatrix GPU data transfer time = 0.002935 s
+
+ Process - 0 LAPACKEzgetrs took 0.06422s
+
+ Process - 1 Freq = 400	532.8	-403.1
+
+ Process - 0 LAPACKEzgetrs took 0.06438s
+
+ Process - 0 Freq = 300	886	-121.8
+
+ Process - 1 zmatrix GPU execution time = 0.03651 s
+
+ Process - 0 zmatrix GPU execution time = 0.03678 s
+
+ Process - 1 zmatrix GPU execution time including data transfer = 0.03961 s
+
+ Process - 1 zmatrix GPU data transfer time = 0.0031 s
+
+ Process - 0 zmatrix GPU execution time including data transfer = 0.03984 s
+
+ Process - 0 zmatrix GPU data transfer time = 0.003061 s
+
+ Process - 0 LAPACKEzgetrs took 0.06429s
+
+ Process - 1 Freq = 600	733.9	218.5
+
+ Process - 0 LAPACKEzgetrs took 0.06437s
+
+ Process - 0 Freq = 500	692.1	-434.9
+
+ Process - 0 Whole calculations took 0.4581s
+ Process - 1 Whole calculations took 0.4581s
+

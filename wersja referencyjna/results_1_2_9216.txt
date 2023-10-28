@@ -1,0 +1,52 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 2
+  -------------------------------------
+
+ Process - 0 zmatrix on CPU took 160.1s
+
+ Process - 0 LAPACKEzgetrs took 34.9s
+
+ Process - 0 Freq = 100	96.03	-507.2
+
+ Process - 0 zmatrix on CPU took 160.3s
+
+ Process - 0 LAPACKEzgetrs took 34.66s
+
+ Process - 0 Freq = 200	713.8	-546.6
+
+ Process - 0 Whole process took 390.1s

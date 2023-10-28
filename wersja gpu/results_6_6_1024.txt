@@ -1,0 +1,146 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+
+ Process - 1 zmatrix mix GPU execution time = 0.02801 s
+
+ Process - 1 zmatrix mix GPU execution time including data transfer = 0.0361 s
+
+ Process - 1 zmatrix mix GPU Data transfer time = 0.008093 s
+
+ Process - 1 cublasZgetrf execution time = 0.01841 s
+
+ Process - 5 zmatrix mix GPU execution time = 0.0761 s
+
+ Process - 5 zmatrix mix GPU execution time including data transfer = 0.08216 s
+
+ Process - 5 zmatrix mix GPU Data transfer time = 0.006062 s
+
+ Process - 3 zmatrix mix GPU execution time = 0.08441 s
+
+ Process - 2 zmatrix mix GPU execution time = 0.08979 s
+
+ Process - 3 zmatrix mix GPU execution time including data transfer = 0.09132 s
+
+ Process - 3 zmatrix mix GPU Data transfer time = 0.006905 s
+
+ Process - 4 zmatrix mix GPU execution time = 0.08785 s
+
+ Process - 2 zmatrix mix GPU execution time including data transfer = 0.09811 s
+
+ Process - 2 zmatrix mix GPU Data transfer time = 0.00832 s
+
+ Process - 4 zmatrix mix GPU execution time including data transfer = 0.09621 s
+
+ Process - 4 zmatrix mix GPU Data transfer time = 0.008351 s
+
+ Process - 5 cublasZgetrf execution time = 0.002274 s
+
+ Process - 3 cublasZgetrf execution time = 0.006858 s
+
+ Process - 2 cublasZgetrf execution time = 0.008963 s
+
+ Process - 4 cublasZgetrf execution time = 0.01107 s
+
+ Process - 0 zmatrix mix GPU execution time = 0.1001 s
+
+ Process - 0 zmatrix mix GPU execution time including data transfer = 0.1073 s
+
+ Process - 0 zmatrix mix GPU Data transfer time = 0.007202 s
+
+ Process - 0 cublasZgetrf execution time = 0.01097 s
+
+ Process - 1 cublasZgetrs execution time = 2.954 s
+
+ Process - 1 LU_cuBLAS execution time including data transfer = 3.005 s
+
+ Process - 1 LU_cuBLAS Data transfer time = 0.03275 s
+
+ Process - 1 Freq = 200	507.8	-697.9
+
+ Process - 5 cublasZgetrs execution time = 3.004 s
+
+ Process - 5 LU_cuBLAS execution time including data transfer = 3.028 s
+
+ Process - 5 LU_cuBLAS Data transfer time = 0.02165 s
+
+ Process - 5 Freq = 600	733.9	218.5
+
+ Process - 3 cublasZgetrs execution time = 2.993 s
+
+ Process - 2 cublasZgetrs execution time = 2.989 s
+
+ Process - 3 LU_cuBLAS execution time including data transfer = 3.035 s
+
+ Process - 3 LU_cuBLAS Data transfer time = 0.03522 s
+
+ Process - 3 Freq = 400	532.8	-403.1
+
+ Process - 4 cublasZgetrs execution time = 2.985 s
+
+ Process - 2 LU_cuBLAS execution time including data transfer = 3.031 s
+
+ Process - 2 LU_cuBLAS Data transfer time = 0.03298 s
+
+ Process - 2 Freq = 300	886	-121.8
+
+ Process - 4 LU_cuBLAS execution time including data transfer = 3.029 s
+
+ Process - 4 LU_cuBLAS Data transfer time = 0.03323 s
+
+ Process - 4 Freq = 500	692.1	-434.9
+
+ Process - 0 cublasZgetrs execution time = 2.892 s
+
+ Process - 0 LU_cuBLAS execution time including data transfer = 2.939 s
+
+ Process - 0 LU_cuBLAS Data transfer time = 0.03632 s
+
+ Process - 0 Freq = 100	705	-610.5
+
+ Process - 4 Timer took 3.362s for Whole calculations
+
+ Process - 0 Timer took 3.362s for Whole calculations
+
+ Process - 1 Timer took 3.363s for Whole calculations
+
+ Process - 5 Timer took 3.363s for Whole calculations
+
+ Process - 3 Timer took 3.363s for Whole calculations
+
+ Process - 2 Timer took 3.363s for Whole calculations

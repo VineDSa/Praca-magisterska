@@ -1,0 +1,76 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+
+ Process - 0 zmatrix on CPU took 17.62s
+
+ Process - 0 LAPACKEzgetrs took 1.409s
+
+ Process - 0 Freq = 100	307.8	-466.6
+
+ Process - 0 zmatrix on CPU took 17.73s
+
+ Process - 0 LAPACKEzgetrs took 1.371s
+
+ Process - 0 Freq = 200	378.1	-877.3
+
+ Process - 0 zmatrix on CPU took 17.85s
+
+ Process - 0 LAPACKEzgetrs took 1.369s
+
+ Process - 0 Freq = 300	218.8	88.46
+
+ Process - 0 zmatrix on CPU took 17.9s
+
+ Process - 0 LAPACKEzgetrs took 1.367s
+
+ Process - 0 Freq = 400	209.4	-361.8
+
+ Process - 0 zmatrix on CPU took 17.99s
+
+ Process - 0 LAPACKEzgetrs took 1.368s
+
+ Process - 0 Freq = 500	540.7	354.2
+
+ Process - 0 zmatrix on CPU took 18.06s
+
+ Process - 0 LAPACKEzgetrs took 1.369s
+
+ Process - 0 Freq = 600	353.7	-48.71
+
+ Process - 0 Whole process took 115.4s

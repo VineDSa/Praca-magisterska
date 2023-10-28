@@ -1,0 +1,126 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+
+ Process - 1 zmatrix mix GPU and CPU execution time = 0.07731 s
+
+ Process - 0 zmatrix mix GPU and CPU execution time = 0.07907 s
+
+ Process - 1 zmatrix mix GPU and CPU execution time including data transfer = 0.09656 s
+
+ Process - 1 zmatrix mix GPU and CPU Data transfer time = 0.01925 s
+
+ Process - 0 zmatrix mix GPU and CPU execution time including data transfer = 0.09828 s
+
+ Process - 0 zmatrix mix GPU and CPU Data transfer time = 0.01921 s
+
+ Process - 1 fill CPU part took 2.633s
+
+ Process - 1 full zmatrix took 2.842s
+
+ Process - 0 fill CPU part took 2.639s
+
+ Process - 0 full zmatrix took 2.85s
+
+ Process - 1 LAPACKEzgetrs took 0.3158s
+
+ Process - 1 Freq = 200	1008	612.7
+
+ Process - 0 LAPACKEzgetrs took 0.3165s
+
+ Process - 0 Freq = 100	2621	353.2
+
+ Process - 1 zmatrix mix GPU and CPU execution time = 0.06349 s
+
+ Process - 1 zmatrix mix GPU and CPU execution time including data transfer = 0.07014 s
+
+ Process - 1 zmatrix mix GPU and CPU Data transfer time = 0.006646 s
+
+ Process - 0 zmatrix mix GPU and CPU execution time = 0.06293 s
+
+ Process - 0 zmatrix mix GPU and CPU execution time including data transfer = 0.06993 s
+
+ Process - 0 zmatrix mix GPU and CPU Data transfer time = 0.007003 s
+
+ Process - 1 fill CPU part took 2.667s
+
+ Process - 1 full zmatrix took 2.738s
+
+ Process - 0 fill CPU part took 2.696s
+
+ Process - 0 full zmatrix took 2.767s
+
+ Process - 1 LAPACKEzgetrs took 0.3002s
+
+ Process - 1 Freq = 400	925.8	-132.4
+
+ Process - 1 zmatrix mix GPU and CPU execution time = 0.03445 s
+
+ Process - 1 zmatrix mix GPU and CPU execution time including data transfer = 0.04111 s
+
+ Process - 1 zmatrix mix GPU and CPU Data transfer time = 0.006666 s
+
+ Process - 0 LAPACKEzgetrs took 0.3047s
+
+ Process - 0 Freq = 300	444.2	120.1
+
+ Process - 0 zmatrix mix GPU and CPU execution time = 0.03444 s
+
+ Process - 0 zmatrix mix GPU and CPU execution time including data transfer = 0.03926 s
+
+ Process - 0 zmatrix mix GPU and CPU Data transfer time = 0.004818 s
+
+ Process - 1 fill CPU part took 2.598s
+
+ Process - 1 full zmatrix took 2.641s
+
+ Process - 0 fill CPU part took 2.633s
+
+ Process - 0 full zmatrix took 2.674s
+
+ Process - 1 LAPACKEzgetrs took 0.3044s
+
+ Process - 1 Freq = 600	213.7	-66.06
+
+ Process - 0 LAPACKEzgetrs took 0.3059s
+
+ Process - 0 Freq = 500	435.6	283.3
+
+ Process - 0 Whole calculations took 9.262s
+
+ Process - 1 Whole calculations took 9.263s

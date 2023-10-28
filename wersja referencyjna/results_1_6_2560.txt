@@ -1,0 +1,76 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+
+ Process - 0 zmatrix on CPU took 12.6s
+
+ Process - 0 LAPACKEzgetrs took 0.8371s
+
+ Process - 0 Freq = 100	829.4	-563.2
+
+ Process - 0 zmatrix on CPU took 12.68s
+
+ Process - 0 LAPACKEzgetrs took 0.8457s
+
+ Process - 0 Freq = 200	544.5	-661.1
+
+ Process - 0 zmatrix on CPU took 12.98s
+
+ Process - 0 LAPACKEzgetrs took 0.8111s
+
+ Process - 0 Freq = 300	1294	-666.2
+
+ Process - 0 zmatrix on CPU took 13.06s
+
+ Process - 0 LAPACKEzgetrs took 0.8177s
+
+ Process - 0 Freq = 400	416.6	-318.2
+
+ Process - 0 zmatrix on CPU took 12.95s
+
+ Process - 0 LAPACKEzgetrs took 0.8128s
+
+ Process - 0 Freq = 500	386.4	-501.7
+
+ Process - 0 zmatrix on CPU took 12.9s
+
+ Process - 0 LAPACKEzgetrs took 0.8112s
+
+ Process - 0 Freq = 600	902	-255.8
+
+ Process - 0 Whole process took 82.11s

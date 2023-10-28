@@ -1,0 +1,76 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+
+ Process - 0 zmatrix on CPU took 39.53s
+
+ Process - 0 LAPACKEzgetrs took 4.551s
+
+ Process - 0 Freq = 100	122.8	-353.4
+
+ Process - 0 zmatrix on CPU took 39.74s
+
+ Process - 0 LAPACKEzgetrs took 4.468s
+
+ Process - 0 Freq = 200	454.7	520.7
+
+ Process - 0 zmatrix on CPU took 40.07s
+
+ Process - 0 LAPACKEzgetrs took 4.457s
+
+ Process - 0 Freq = 300	721.1	-665.8
+
+ Process - 0 zmatrix on CPU took 40.8s
+
+ Process - 0 LAPACKEzgetrs took 4.471s
+
+ Process - 0 Freq = 400	181.6	-241
+
+ Process - 0 zmatrix on CPU took 40.39s
+
+ Process - 0 LAPACKEzgetrs took 4.464s
+
+ Process - 0 Freq = 500	745.9	416.2
+
+ Process - 0 zmatrix on CPU took 41.31s
+
+ Process - 0 LAPACKEzgetrs took 4.599s
+
+ Process - 0 Freq = 600	524.4	-250
+
+ Process - 0 Whole process took 268.9s

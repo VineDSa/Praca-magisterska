@@ -1,0 +1,76 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+
+ Process - 0 zmatrix on CPU took 31.36s
+
+ Process - 0 LAPACKEzgetrs took 3.234s
+
+ Process - 0 Freq = 100	143.1	-360
+
+ Process - 0 zmatrix on CPU took 31.47s
+
+ Process - 0 LAPACKEzgetrs took 3.176s
+
+ Process - 0 Freq = 200	645.5	668.7
+
+ Process - 0 zmatrix on CPU took 31.65s
+
+ Process - 0 LAPACKEzgetrs took 3.177s
+
+ Process - 0 Freq = 300	459.5	-57.01
+
+ Process - 0 zmatrix on CPU took 31.77s
+
+ Process - 0 LAPACKEzgetrs took 3.17s
+
+ Process - 0 Freq = 400	429.4	-297.2
+
+ Process - 0 zmatrix on CPU took 31.88s
+
+ Process - 0 LAPACKEzgetrs took 3.172s
+
+ Process - 0 Freq = 500	503.5	-705.3
+
+ Process - 0 zmatrix on CPU took 32s
+
+ Process - 0 LAPACKEzgetrs took 3.177s
+
+ Process - 0 Freq = 600	233.4	49.01
+
+ Process - 0 Whole process took 209.2s

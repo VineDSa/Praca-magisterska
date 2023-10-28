@@ -1,0 +1,60 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+CUDA Error : cudaMalloc failed !
+ : Wire_MoM.cu 4763 : ERR cudaErrorMemoryAllocation
+
+ Process - 1 zmatrix GPU execution time = 0 s
+
+ Process - 1 zmatrix GPU execution time including data transfer = 2.332e-45 s
+
+ Process - 1 zmatrix GPU data transfer time = 2.332e-45 s
+
+ Process - 0 zmatrix GPU execution time = 5.695 s
+
+ Process - 2 zmatrix GPU execution time = 5.694 s
+
+ Process - 0 zmatrix GPU execution time including data transfer = 6.95 s
+
+ Process - 0 zmatrix GPU data transfer time = 1.255 s
+
+ Process - 2 zmatrix GPU execution time including data transfer = 6.953 s
+
+ Process - 2 zmatrix GPU data transfer time = 1.259 s
+[mpiexec@dominik] Sending Ctrl-C to processes as requested
+[mpiexec@dominik] Press Ctrl-C again to force abort

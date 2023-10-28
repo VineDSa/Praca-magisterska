@@ -1,0 +1,76 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+
+ Process - 0 zmatrix on CPU took 7.913s
+
+ Process - 0 LAPACKEzgetrs took 0.4445s
+
+ Process - 0 Freq = 100	1581	822.6
+
+ Process - 0 zmatrix on CPU took 7.939s
+
+ Process - 0 LAPACKEzgetrs took 0.4248s
+
+ Process - 0 Freq = 200	508.7	454.6
+
+ Process - 0 zmatrix on CPU took 8.137s
+
+ Process - 0 LAPACKEzgetrs took 0.4374s
+
+ Process - 0 Freq = 300	208	50.4
+
+ Process - 0 zmatrix on CPU took 8.075s
+
+ Process - 0 LAPACKEzgetrs took 0.4329s
+
+ Process - 0 Freq = 400	179	-307.1
+
+ Process - 0 zmatrix on CPU took 8.172s
+
+ Process - 0 LAPACKEzgetrs took 0.4263s
+
+ Process - 0 Freq = 500	457	-638.8
+
+ Process - 0 zmatrix on CPU took 8.206s
+
+ Process - 0 LAPACKEzgetrs took 0.4293s
+
+ Process - 0 Freq = 600	822.6	-196.6
+
+ Process - 0 Whole process took 51.04s

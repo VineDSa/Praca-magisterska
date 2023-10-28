@@ -1,0 +1,70 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 8
+  -------------------------------------
+cuBLAS Error : Zmatrix allloc fail!
+ : Wire_MoM.cu 4779 : ERR cuBLAS Error : Zmatrix allloc fail!
+ : Wire_MoM.cu 4779 : ERR cuBLAS Error : Zmatrix allloc fail!
+ : Wire_MoM.cu 4779 : ERR 2
+2
+2
+
+ Process - 1 zmatrix mix GPU and CPU execution time = 2.803e-48 s
+
+ Process - 1 zmatrix mix GPU and CPU execution time including data transfer = 2.662e-47 s
+
+ Process - 1 zmatrix mix GPU and CPU Data transfer time = 2.382e-47 s
+
+ Process - 2 zmatrix mix GPU and CPU execution time = 2.803e-48 s
+
+ Process - 2 zmatrix mix GPU and CPU execution time including data transfer = 4.204e-47 s
+
+ Process - 2 zmatrix mix GPU and CPU Data transfer time = 3.924e-47 s
+
+ Process - 3 zmatrix mix GPU and CPU execution time = 2.803e-48 s
+
+ Process - 3 zmatrix mix GPU and CPU execution time including data transfer = 2.662e-47 s
+
+ Process - 3 zmatrix mix GPU and CPU Data transfer time = 2.382e-47 s
+
+ Process - 0 zmatrix mix GPU and CPU execution time = 1.84 s
+
+ Process - 0 zmatrix mix GPU and CPU execution time including data transfer = 2.818 s
+
+ Process - 0 zmatrix mix GPU and CPU Data transfer time = 0.9782 s
+[mpiexec@dominik] Sending Ctrl-C to processes as requested
+[mpiexec@dominik] Press Ctrl-C again to force abort

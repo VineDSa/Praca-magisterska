@@ -1,0 +1,230 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 12
+  -------------------------------------
+
+ Process - 3 zmatrix mix GPU and CPU execution time = 1.812 s
+
+ Process - 5 zmatrix mix GPU and CPU execution time = 1.894 s
+
+ Process - 2 zmatrix mix GPU and CPU execution time = 1.895 s
+
+ Process - 3 zmatrix mix GPU and CPU execution time including data transfer = 1.931 s
+
+ Process - 3 zmatrix mix GPU and CPU Data transfer time = 0.1193 s
+
+ Process - 8 zmatrix mix GPU and CPU execution time = 
+ Process - 9 zmatrix mix GPU and CPU execution time = 1.938 s
+1.938 s
+
+ Process - 11 zmatrix mix GPU and CPU execution time = 1.955 s
+
+ Process - 0 zmatrix mix GPU and CPU execution time = 1.913 s
+
+
+ Process - 5 zmatrix mix GPU and CPU execution time including data transfer = 2.031 s
+
+ Process - 5 zmatrix mix GPU and CPU Data transfer time = 0.1373 s
+ Process - 2 zmatrix mix GPU and CPU execution time including data transfer = 2.031 s
+
+ Process - 2 zmatrix mix GPU and CPU Data transfer time = 0.1365 s
+
+ Process - 6 zmatrix mix GPU and CPU execution time = 1.894 s
+
+ Process - 4 zmatrix mix GPU and CPU execution time = 1.882 s
+
+ Process - 10 zmatrix mix GPU and CPU execution time = 1.851 s
+
+ Process - 1 zmatrix mix GPU and CPU execution time = 1.785
+ Process - 7 zmatrix mix GPU and CPU execution time = 1.786 s
+ s
+
+ Process - 9 zmatrix mix GPU and CPU execution time including data transfer = 2.127 s
+
+ Process - 8 zmatrix mix GPU and CPU execution time including data transfer = 2.128 s
+
+ Process - 8 zmatrix mix GPU and CPU Data transfer time = 0.1901 s
+
+ Process - 9 zmatrix mix GPU and CPU Data transfer time = 0.1889 s
+
+ Process - 11 zmatrix mix GPU and CPU execution time including data transfer = 2.142 s
+
+ Process - 11 zmatrix mix GPU and CPU Data transfer time = 0.187 s
+
+ Process - 0 zmatrix mix GPU and CPU execution time including data transfer = 2.127 s
+
+ Process - 0 zmatrix mix GPU and CPU Data transfer time = 0.214 s
+
+ Process - 6 zmatrix mix GPU and CPU execution time including data transfer = 2.108 s
+
+ Process - 6 zmatrix mix GPU and CPU Data transfer time = 0.2134 s
+
+ Process - 4 zmatrix mix GPU and CPU execution time including data transfer = 2.106 s
+
+ Process - 4 zmatrix mix GPU and CPU Data transfer time = 0.2236 s
+
+ Process - 10 zmatrix mix GPU and CPU execution time including data transfer = 2.062 s
+
+ Process - 10 zmatrix mix GPU and CPU Data transfer time = 0.2108 s
+
+ Process - 7 zmatrix mix GPU and CPU execution time including data transfer = 1.993 s
+
+ Process - 7 zmatrix mix GPU and CPU Data transfer time = 0.2076 s
+
+ Process - 1 zmatrix mix GPU and CPU execution time including data transfer = 2.001 s
+
+ Process - 1 zmatrix mix GPU and CPU Data transfer time = 0.2159 s
+
+ Process - 3 fill CPU part took 25.08s
+
+ Process - 3 full zmatrix took 27.33s
+
+ Process - 2 fill CPU part took 25.28s
+
+ Process - 2 full zmatrix took 27.64s
+
+ Process - 5 fill CPU part took 25.41s
+
+ Process - 5 full zmatrix took 27.77s
+
+ Process - 11 fill CPU part took 25.38s
+
+ Process - 11 full zmatrix took 27.85s
+
+ Process - 9 fill CPU part took 25.47s
+
+ Process - 9 full zmatrix took 27.93s
+
+ Process - 8 fill CPU part took 25.53s
+
+ Process - 8 full zmatrix took 27.98s
+
+ Process - 0 fill CPU part took 25.46s
+
+ Process - 0 full zmatrix took 28.01s
+
+ Process - 4 fill CPU part took 25.46s
+
+ Process - 4 full zmatrix took 28.04s
+
+ Process - 6 fill CPU part took 25.54s
+
+ Process - 6 full zmatrix took 28.1s
+
+ Process - 1 fill CPU part took 25.61s
+
+ Process - 1 full zmatrix took 28.21s
+
+ Process - 10 fill CPU part took 25.84s
+
+ Process - 10 full zmatrix took 28.42s
+
+ Process - 7 fill CPU part took 25.85s
+
+ Process - 7 full zmatrix took 28.44s
+
+ Process - 3 LAPACKEzgetrs took 6.642s
+
+ Process - 3 Freq = 400	429.4	-297.2
+
+ Process - 2 LAPACKEzgetrs took 6.894s
+
+ Process - 2 Freq = 300	459.5	-57.01
+
+ Process - 5 LAPACKEzgetrs took 6.825s
+
+ Process - 5 Freq = 600	233.4	49.01
+
+ Process - 11 LAPACKEzgetrs took 6.982s
+
+ Process - 11 Freq = 1200	705.8	-261.2
+
+ Process - 9 LAPACKEzgetrs took 7.017s
+
+ Process - 9 Freq = 1000	341.4	-409.7
+
+ Process - 8 LAPACKEzgetrs took 7.033s
+
+ Process - 8 Freq = 900	266.4	40.85
+
+ Process - 0 LAPACKEzgetrs took 7.041s
+
+ Process - 0 Freq = 100	143.1	-360
+
+ Process - 4 LAPACKEzgetrs took 7.027s
+
+ Process - 4 Freq = 500	503.5	-705.3
+
+ Process - 6 LAPACKEzgetrs took 6.984s
+
+ Process - 6 Freq = 700	1066	-64.15
+
+ Process - 1 LAPACKEzgetrs took 7.009s
+
+ Process - 1 Freq = 200	645.5	668.7
+
+ Process - 7 LAPACKEzgetrs took 6.836s
+
+ Process - 7 Freq = 800	322.1	-418.7
+
+ Process - 10 LAPACKEzgetrs took 6.921s
+
+ Process - 10 Freq = 1100	470.7	37.47
+
+ Process - 1 Whole calculations took 
+35.44s
+
+ Process - 7 Whole calculations took 35.44s
+
+ Process - 0 Whole calculations took 35.44s
+
+ Process - 2 Whole calculations took 35.44s
+
+
+ Process -  Process - 5 Whole calculations took 35.44
+ Process - 6 Whole calculations took s
+35.448 Whole calculations took 35.44s
+
+ Process - 9 Whole calculations took 35.44s
+
+ Process - s
+10
+ Whole calculations took 35.44s
+ Process - 11 Whole calculations took 35.44s
+ Process - 3 Whole calculations took 35.44s
+
+ Process - 4 Whole calculations took 35.44s

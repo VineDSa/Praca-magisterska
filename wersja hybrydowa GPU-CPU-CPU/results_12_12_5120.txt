@@ -1,0 +1,114 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 12
+  -------------------------------------
+cuBLAS Error : Zmatrix allloc fail!
+ : Wire_MoM.cu 4779 : ERR 2
+
+ Process - 2 zmatrix mix GPU and CPU execution time = 2.803e-48 s
+
+ Process - 2 zmatrix mix GPU and CPU execution time including data transfer = 2.424e-46 s
+
+ Process - 2 zmatrix mix GPU and CPU Data transfer time = 2.396e-46 s
+
+ Process - 1 zmatrix mix GPU and CPU execution time = 3.458 s
+
+ Process - 5 zmatrix mix GPU and CPU execution time = 3.484 s
+
+ Process - 6 zmatrix mix GPU and CPU execution time = 3.496 s
+
+ Process - 10 zmatrix mix GPU and CPU execution time = 3.5 s
+
+ Process - 0 zmatrix mix GPU and CPU execution time = 3.501 s
+
+ Process - 3 zmatrix mix GPU and CPU execution time = 3.522 s
+
+ Process - 4 zmatrix mix GPU and CPU execution time = 3.521 s
+
+ Process - 8 zmatrix mix GPU and CPU execution time = 3.474 s
+
+ Process - 7 zmatrix mix GPU and CPU execution time = 3.396 s
+
+ Process - 9 zmatrix mix GPU and CPU execution time = 3.412 s
+
+ Process - 11 zmatrix mix GPU and CPU execution time = 3.385 s
+
+ Process - 5 zmatrix mix GPU and CPU execution time including data transfer = 3.936 s
+
+ Process - 5 zmatrix mix GPU and CPU Data transfer time = 0.4518 s
+
+ Process - 1 zmatrix mix GPU and CPU execution time including data transfer = 4.023 s
+
+ Process - 1 zmatrix mix GPU and CPU Data transfer time = 0.5642 s
+
+ Process - 6 zmatrix mix GPU and CPU execution time including data transfer = 4.039 s
+
+ Process - 6 zmatrix mix GPU and CPU Data transfer time = 0.543 s
+
+ Process - 10 zmatrix mix GPU and CPU execution time including data transfer = 4.073 s
+
+ Process - 10 zmatrix mix GPU and CPU Data transfer time = 0.573 s
+
+ Process - 0 zmatrix mix GPU and CPU execution time including data transfer = 4.076 s
+
+ Process - 0 zmatrix mix GPU and CPU Data transfer time = 0.5752 s
+
+ Process - 3 zmatrix mix GPU and CPU execution time including data transfer = 4.092 s
+
+ Process - 3 zmatrix mix GPU and CPU Data transfer time = 0.5706 s
+
+ Process - 4 zmatrix mix GPU and CPU execution time including data transfer = 4.091 s
+
+ Process - 4 zmatrix mix GPU and CPU Data transfer time = 0.5707 s
+
+ Process - 8 zmatrix mix GPU and CPU execution time including data transfer = 4.04 s
+
+ Process - 8 zmatrix mix GPU and CPU Data transfer time = 0.5658 s
+
+ Process - 7 zmatrix mix GPU and CPU execution time including data transfer = 3.96 s
+
+ Process - 7 zmatrix mix GPU and CPU Data transfer time = 0.5632 s
+
+ Process - 11 zmatrix mix GPU and CPU execution time including data transfer = 3.961 s
+
+ Process - 11 zmatrix mix GPU and CPU Data transfer time = 0.576 s
+
+ Process - 9 zmatrix mix GPU and CPU execution time including data transfer = 3.991 s
+
+ Process - 9 zmatrix mix GPU and CPU Data transfer time = 0.5785 s
+[mpiexec@dominik] Sending Ctrl-C to processes as requested
+[mpiexec@dominik] Press Ctrl-C again to force abort

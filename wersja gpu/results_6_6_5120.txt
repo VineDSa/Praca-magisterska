@@ -1,0 +1,146 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+
+ Process - 1 zmatrix mix GPU execution time = 2.325 s
+
+ Process - 2 zmatrix mix GPU execution time = 2.335 s
+
+ Process - 5 zmatrix mix GPU execution time = 2.34 s
+
+ Process - 4 zmatrix mix GPU execution time = 2.341 s
+
+ Process - 3 zmatrix mix GPU execution time = 2.343 s
+
+ Process - 0 zmatrix mix GPU execution time = 2.244 s
+
+ Process - 1 zmatrix mix GPU execution time including data transfer = 2.624 s
+
+ Process - 1 zmatrix mix GPU Data transfer time = 0.2992 s
+
+ Process - 2 zmatrix mix GPU execution time including data transfer = 2.646 s
+
+ Process - 2 zmatrix mix GPU Data transfer time = 0.311 s
+
+ Process - 5 zmatrix mix GPU execution time including data transfer = 2.656 s
+
+ Process - 5 zmatrix mix GPU Data transfer time = 0.3162 s
+
+ Process - 4 zmatrix mix GPU execution time including data transfer = 2.657 s
+
+ Process - 4 zmatrix mix GPU Data transfer time = 0.3163 s
+
+ Process - 3 zmatrix mix GPU execution time including data transfer = 2.662 s
+
+ Process - 3 zmatrix mix GPU Data transfer time = 0.3184 s
+
+ Process - 0 zmatrix mix GPU execution time including data transfer = 2.555 s
+
+ Process - 0 zmatrix mix GPU Data transfer time = 0.3108 s
+
+ Process - 1 cublasZgetrf execution time = 0.0003738 s
+
+ Process - 2 cublasZgetrf execution time = 0.002282 s
+
+ Process - 4 cublasZgetrf execution time = 0.004658 s
+
+ Process - 0 cublasZgetrf execution time = 0.006765 s
+
+ Process - 5 cublasZgetrf execution time = 0.008867 s
+
+ Process - 3 cublasZgetrf execution time = 0.01097 s
+
+ Process - 1 cublasZgetrs execution time = 372.9 s
+
+ Process - 1 LU_cuBLAS execution time including data transfer = 373.2 s
+
+ Process - 1 LU_cuBLAS Data transfer time = 0.3264 s
+
+ Process - 1 Freq = 200	462.3	462.4
+
+ Process - 5 cublasZgetrs execution time = 373 s
+
+ Process - 3 cublasZgetrs execution time = 373 s
+
+ Process - 2 cublasZgetrs execution time = 373 s
+
+ Process - 0 cublasZgetrs execution time = 373 s
+
+ Process - 5 LU_cuBLAS execution time including data transfer = 373.3 s
+
+ Process - 5 LU_cuBLAS Data transfer time = 0.3218 s
+
+ Process - 5 Freq = 600	951.3	-611.1
+
+ Process - 4 cublasZgetrs execution time = 373 s
+
+ Process - 3 LU_cuBLAS execution time including data transfer = 373.3 s
+
+ Process - 3 LU_cuBLAS Data transfer time = 0.3118 s
+
+ Process - 3 Freq = 400	147.8	-252.7
+
+ Process - 2 LU_cuBLAS execution time including data transfer = 373.3 s
+
+ Process - 2 LU_cuBLAS Data transfer time = 0.3133 s
+
+ Process - 2 Freq = 300	1225	-1059
+
+ Process - 0 LU_cuBLAS execution time including data transfer = 373.3 s
+
+ Process - 0 LU_cuBLAS Data transfer time = 0.2965 s
+
+ Process - 0 Freq = 100	111.8	-358.1
+
+ Process - 4 LU_cuBLAS execution time including data transfer = 373.3 s
+
+ Process - 4 LU_cuBLAS Data transfer time = 0.3002 s
+
+ Process - 4 Freq = 500	577.5	291.6
+
+ Process - 1 Timer took 376.2s for Whole calculations
+
+ Process - 5 Timer took 376.2s for Whole calculations
+
+ Process - 0 Timer took 376.2s for Whole calculations
+
+ Process - 3 Timer took 
+ Process - 4 Timer took 376.2s for Whole calculations
+376.2s for Whole calculations
+
+ Process - 2 Timer took 376.2s for Whole calculations

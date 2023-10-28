@@ -1,0 +1,89 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+CUDA Error : cudaMalloc failed !
+ : Wire_MoM.cu 4763 : ERR cudaErrorMemoryAllocation
+
+ Process - 0 zmatrix GPU execution time = 0 s
+
+ Process - 0 zmatrix GPU execution time including data transfer = 1.794e-45 s
+
+ Process - 0 zmatrix GPU data transfer time = 1.794e-45 s
+CUDA Error : cudaMalloc failed !
+ : Wire_MoM.cu 4763 : ERR cudaErrorMemoryAllocation
+
+ Process - 1 zmatrix GPU execution time = 0 s
+
+ Process - 1 zmatrix GPU execution time including data transfer = 1.794e-45 s
+
+ Process - 1 zmatrix GPU data transfer time = 1.794e-45 s
+
+ Process - 3 zmatrix GPU execution time = 6.414 s
+
+ Process - 5 zmatrix GPU execution time = 6.422 s
+
+ Process - 2 zmatrix GPU execution time = 6.427 s
+
+ Process - 4 zmatrix GPU execution time = 6.429 s
+
+ Process - 5 zmatrix GPU execution time including data transfer = 7.552 s
+
+ Process - 5 zmatrix GPU data transfer time = 1.131 s
+
+ Process - 3 zmatrix GPU execution time including data transfer = 7.565 s
+
+ Process - 3 zmatrix GPU data transfer time = 1.151 s
+
+ Process - 4 zmatrix GPU execution time including data transfer = 7.573 s
+
+ Process - 4 zmatrix GPU data transfer time = 1.144 s
+
+ Process - 2 zmatrix GPU execution time including data transfer = 7.579 s
+
+ Process - 2 zmatrix GPU data transfer time = 1.152 s
+
+===================================================================================
+=   BAD TERMINATION OF ONE OF YOUR APPLICATION PROCESSES
+=   PID 7120 RUNNING AT dominik
+=   EXIT CODE: 9
+=   CLEANING UP REMAINING PROCESSES
+=   YOU CAN IGNORE THE BELOW CLEANUP MESSAGES
+===================================================================================
+YOUR APPLICATION TERMINATED WITH THE EXIT STRING: Killed (signal 9)
+This typically refers to a problem with your application.
+Please see the FAQ page for debugging suggestions

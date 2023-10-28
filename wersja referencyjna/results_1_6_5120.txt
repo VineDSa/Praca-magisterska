@@ -1,0 +1,76 @@
+
+ -------------------------
+ Implementacja MoM w C++
+ Wersja dla drucikow z PEC
+ Analiza instalacji odgromowych
+ -------------------------
+
+ Nazwa pliku geo: dipol.geo
+ Environment: free space       --> 1
+              pec ground (z=0) --> 2
+ Select indicator (1 or 2):  1
+
+ ##################################################################
+ +-----------------------------------------------------------------+
+ | Inspect file configwire.txt for a list of current pulses        |
+ | assciated with wires, and coordinates of their nodes            |
+ +-----------------------------------------------------------------+
+ ##################################################################
+
+ -------------------
+ EXCITATION: 
+ 1 - delta gap source
+ 2 - incident wave
+ Select 1 or 2: 1
+ ------------------------------
+ Source (source zone on wire): 100
+       Specify source attributes
+                 magnitude [V]: 1
+               phase [degrees]: 0
+ -----------------------------------
+ Lumped loadings (1-> yes, 2-> no): 2
+ -----------------------------------
+ spectrum weight (1-> yes, 2-> no): 2
+
+
+  -------------------------------------
+  Number of frequency points: 6
+  -------------------------------------
+
+ Process - 0 zmatrix on CPU took 49.05s
+
+ Process - 0 LAPACKEzgetrs took 6.184s
+
+ Process - 0 Freq = 100	111.8	-358.1
+
+ Process - 0 zmatrix on CPU took 49.59s
+
+ Process - 0 LAPACKEzgetrs took 6.147s
+
+ Process - 0 Freq = 200	462.3	462.4
+
+ Process - 0 zmatrix on CPU took 49.61s
+
+ Process - 0 LAPACKEzgetrs took 6.101s
+
+ Process - 0 Freq = 300	1225	-1059
+
+ Process - 0 zmatrix on CPU took 49.71s
+
+ Process - 0 LAPACKEzgetrs took 6.096s
+
+ Process - 0 Freq = 400	147.8	-252.7
+
+ Process - 0 zmatrix on CPU took 50.16s
+
+ Process - 0 LAPACKEzgetrs took 6.109s
+
+ Process - 0 Freq = 500	577.5	291.6
+
+ Process - 0 zmatrix on CPU took 50.08s
+
+ Process - 0 LAPACKEzgetrs took 6.104s
+
+ Process - 0 Freq = 600	951.3	-611.1
+
+ Process - 0 Whole process took 335s
